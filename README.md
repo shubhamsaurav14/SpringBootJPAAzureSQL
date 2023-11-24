@@ -55,6 +55,6 @@ create a db in mssql using azure data studio
 Reference:
 https://learn.microsoft.com/en-us/azure-data-studio/quickstart-sql-server
 
-# how to achive natice query with spring-boot jpa
+# how to achive native query with spring-boot jpa
 
 https://www.youtube.com/watch?v=FQNxZD2dbaA

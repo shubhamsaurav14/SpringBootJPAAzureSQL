@@ -1,18 +1,13 @@
 package com.spring.jpa.mssql.springbootjpa.repository;
 
 import java.util.List;
-import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.jpa.repository.JpaRepository; 
 import org.springframework.data.jpa.repository.Query; 
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository; 
 import com.spring.jpa.mssql.springbootjpa.model.Address;
 import com.spring.jpa.mssql.springbootjpa.model.Response;
-import com.spring.jpa.mssql.springbootjpa.response.AddressResponse;
 import com.spring.jpa.mssql.springbootjpa.util.QueryClass;
   
 @Repository

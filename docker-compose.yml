@@ -10,8 +10,8 @@ services:
     ports:
       - "1433:1433"
     hostname: mssql
-    # volumes:
-      # - "mssql-azuresql-edge-data:/var/opt/mssql"
+    volumes:
+      - "./mssql-azuresql-edge-data:/var/opt/mssql"
     # networks: 
     #   - "learndb_net"
 #   webapp:    

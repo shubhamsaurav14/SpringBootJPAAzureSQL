@@ -23,4 +23,9 @@ public class SpringbootjpaApplication {
 	public String query() {
 	return new String("SELECT e.first_name as firstName, ea.id as id, ea.city as city, ea.state as state FROM dbo.address ea join dbo.employeeS e on e.id = ea.employee_id");
 	}
+
+	@Bean
+	public String query1() {
+	return new String("SELECT e.first_name as firstName, ea.id as id, ea.city as city, ea.state as state FROM dbo.address ea join dbo.employeeS e on e.id = ea.employee_id");
+	}
 }
